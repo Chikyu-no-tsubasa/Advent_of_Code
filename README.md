@@ -2,6 +2,7 @@
 
 Welcome to my **Advent of Code** solutions!  
 Each day, I’ll be solving the puzzles using different programming languages — exploring new syntax, paradigms, and problem-solving techniques.
+
 Only for 2024 AoC, I'll be documenting my journey here, sharing my solutions, and tracking my progress, causing I'll use different languages for each day. 
 
 ---
