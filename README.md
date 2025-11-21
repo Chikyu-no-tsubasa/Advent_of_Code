@@ -2,6 +2,7 @@
 
 Welcome to my **Advent of Code** solutions!  
 Each day, I’ll be solving the puzzles using different programming languages — exploring new syntax, paradigms, and problem-solving techniques.
+Only for 2024 AoC, I'll be documenting my journey here, sharing my solutions, and tracking my progress, causing I'll use different languages for each day. 
 
 ---
 
@@ -33,8 +34,29 @@ You’ll find:
 | 01 | ✅ | ✅ | C# | Absolute difference puzzle |
 | 02 | ✅ | ✅ | C++ | TBD |
 | 03 | ✅ | ✅ | Python | Mull it Over |
-| 04 | 🔲 | 🔲 | - | - |
-| … |  |  |  |  |
+| 04 | 🔲 | 🔲 | Rust | Ceres Search |
+| 05 | 🔲 | 🔲 | - | - |
+| 06 | 🔲 | 🔲 | - | - |
+| 07 | 🔲 | 🔲 | - | - |
+| 08 | 🔲 | 🔲 | - | - |
+| 09 | 🔲 | 🔲 | - | - |
+| 10 | 🔲 | 🔲 | - | - |
+| 11 | 🔲 | 🔲 | - | - |
+| 12 | 🔲 | 🔲 | - | - |
+| 13 | 🔲 | 🔲 | - | - |
+| 14 | 🔲 | 🔲 | - | - |
+| 15 | 🔲 | 🔲 | - | - |
+| 16 | 🔲 | 🔲 | - | - |
+| 17 | 🔲 | 🔲 | - | - |
+| 18 | 🔲 | 🔲 | - | - |
+| 19 | 🔲 | 🔲 | - | - |
+| 20 | 🔲 | 🔲 | - | - |
+| 21 | 🔲 | 🔲 | - | - |
+| 22 | 🔲 | 🔲 | - | - |
+| 23 | 🔲 | 🔲 | - | - |
+| 24 | 🔲 | 🔲 | - | - |
+| 25 | 🔲 | 🔲 | - | - |
+
 
 (*✅ = solved, 🔲 = pending*)
 
