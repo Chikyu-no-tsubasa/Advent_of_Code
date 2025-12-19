@@ -1,67 +1,66 @@
 /*
-https://adventofcode.com/2024/day/1
-To run it, use the command: dotnet script Day1_2.cs 
- */
+https://adventofcode.com/2024/day/4
+To run it, use the command: rustc Day4_2.rs && ./Day4_2 < input.txt
+*/
+use std::io::{self, Read};
 
-// Lists to store the first and second column values
-List<int> left = new List<int>();
-List<int> right = new List<int>();
+const DIRS_8: [(isize, isize); 8] = [
+    (-1, -1), (-1, 0), (-1, 1),
+    ( 0, -1),          ( 0, 1),
+    ( 1, -1), ( 1, 0), ( 1, 1),
+];
 
-// File name (adjust the path if necessary)
-string filePath = "input.txt";
-// Variable to hold the similarity score
-int similarityScore = 0;
+fn in_bounds(x: isize, y: isize, w: isize, h: isize) -> bool {
+    x >= 0 && x < w && y >= 0 && y < h
+}
 
-// Open the file using a StreamReader
-using (StreamReader reader = new StreamReader(filePath))
-{
-    string line;
+fn res(grid: &[Vec<u8>]) -> i64 {
+    let h = grid.len() as isize;
+    let w = grid[0].len() as isize;
 
-    // Read the file line by line until the end
-    while ((line = reader.ReadLine()) != null)
-    {
-        // Skip empty or whitespace-only lines
-        if (string.IsNullOrWhiteSpace(line))
-            continue;
+    // corners around (x,y=A) in order: NW, NE, SE, SW
+    let corners: [(isize, isize); 4] = [(-1, -1), (1, -1), (1, 1), (-1, 1)];
 
-        // Split the line by spaces or tabs, ignoring multiple spaces
-        string[] parts = line.Split(
-            new char[] { ' ', '\t' },
-            StringSplitOptions.RemoveEmptyEntries
-        );
+    // Valid corner sequences (NW, NE, SE, SW)
+    let valid: [[u8; 4]; 4] = [
+        [b'M', b'M', b'S', b'S'],
+        [b'M', b'S', b'S', b'M'],
+        [b'S', b'S', b'M', b'M'],
+        [b'S', b'M', b'M', b'S'],
+    ];
 
-        // Ensure there are at least two elements per line
-        if (parts.Length < 2)
-        {
-            Console.WriteLine($"Skipped line (not enough elements): \"{line}\"");
-            continue;
+
+    let mut count = 0i64;
+
+    // If A is on the border, it can't have all four corners.
+    for y in 1..(h - 1) {
+        for x in 1..(w - 1) {
+            if grid[y as usize][x as usize] != b'A' {
+                continue;
+            }
+            let mut seq = [0u8; 4];
+            for (i, (dx, dy)) in corners.iter().enumerate() {
+                let nx = x + dx;
+                let ny = y + dy;
+                seq[i] = grid[ny as usize][nx as usize];
+            }
+            if valid.iter().any(|v| *v == seq) {
+                count += 1;
+            }
         }
-
-        // // Convert the first two parts to integers
-        int a = int.Parse(parts[0]);
-        int b = int.Parse(parts[1]);
-
-        // // Add them to the respective lists
-        left.Add(a);
-        right.Add(b);
-
     }
+
+    count
 }
 
-// Sort both lists
-left.Sort();
-right.Sort();
+fn main() {
+    let mut input = String::new();
+    io::stdin().read_to_string(&mut input).unwrap();
 
-// Calculate similarity score
-for (int i = 0; i < left.Count; i++)
-{
-    int simCount = 0;
-    for (int j = 0; j < right.Count; j++)
-    {
-        if (left[i] == right[j])
-            simCount++;
-    }
-    similarityScore += (simCount * left[i]);
+    let lines: Vec<&str> = input.lines().filter(|l| !l.trim().is_empty()).collect();
+    let grid: Vec<Vec<u8>> = lines.iter().map(|l| l.as_bytes().to_vec()).collect();
+
+    let r = res(&grid);
+
+    println!("Res: {}", r);
 }
-
-Console.WriteLine(similarityScore);
