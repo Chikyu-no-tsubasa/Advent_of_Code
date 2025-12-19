@@ -35,7 +35,7 @@ You’ll find:
 | 01 | ✅ | ✅ | C# | Absolute difference puzzle |
 | 02 | ✅ | ✅ | C++ | TBD |
 | 03 | ✅ | ✅ | Python | Mull it Over |
-| 04 | 🔲 | 🔲 | Rust | Ceres Search |
+| 04 | ✅ | ✅ | Rust | Ceres Search |
 | 05 | 🔲 | 🔲 | - | - |
 | 06 | 🔲 | 🔲 | - | - |
 | 07 | 🔲 | 🔲 | - | - |
