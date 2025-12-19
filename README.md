@@ -36,7 +36,7 @@ You’ll find:
 | 02 | ✅ | ✅ | C++ | TBD |
 | 03 | ✅ | ✅ | Python | Mull it Over |
 | 04 | ✅ | ✅ | Rust | Ceres Search |
-| 05 | 🔲 | 🔲 | Java | Print Queue |
+| 05 | ✅ | ✅ | Java | Print Queue |
 | 06 | 🔲 | 🔲 | - | - |
 | 07 | 🔲 | 🔲 | - | - |
 | 08 | 🔲 | 🔲 | - | - |
