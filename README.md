@@ -37,7 +37,7 @@ You’ll find:
 | 03 | ✅ | ✅ | Python | Mull it Over |
 | 04 | ✅ | ✅ | Rust | Ceres Search |
 | 05 | ✅ | ✅ | Java | Print Queue |
-| 06 | 🔲 | 🔲 | - | - |
+| 06 | ✅ | ✅ | Ruby | Guard Gallivant |
 | 07 | 🔲 | 🔲 | - | - |
 | 08 | 🔲 | 🔲 | - | - |
 | 09 | 🔲 | 🔲 | - | - |
