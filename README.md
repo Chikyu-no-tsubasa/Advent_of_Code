@@ -32,8 +32,8 @@ You’ll find:
 
 | Day | Part 1 | Part 2 | Language(s) Used | Notes |
 |-----|---------|---------|------------------|--------|
-| 01 | ✅ | ✅ | C# | Absolute difference puzzle |
-| 02 | ✅ | ✅ | C++ | TBD |
+| 01 | ✅ | ✅ | C# | Historian Hysteria |
+| 02 | ✅ | ✅ | C++ | Red-Nosed Reports |
 | 03 | ✅ | ✅ | Python | Mull it Over |
 | 04 | ✅ | ✅ | Rust | Ceres Search |
 | 05 | ✅ | ✅ | Java | Print Queue |
@@ -85,14 +85,5 @@ Each day’s folder will clearly show which language I used.
 ---
 
 ## 🏁 How to Run
-Depending on the language, you can run each solution as follows:
-
-| Language | Command |
-|-----------|----------|
-| **Python** | `python3 part1.py` |
-| **C#** | `dotnet run` *(inside project folder)* |
-| **C++** | `g++ part1.cpp -o part1 && ./part1` |
-| **Java** | `javac Main.java && java Main` |
-| **Rust** | `cargo run` |
-| **JavaScript** | `node part1.js` |
+Depending on the language, you can run each solution locally by following the instructions in the respective file or folder.
 
