@@ -96,7 +96,3 @@ Depending on the language, you can run each solution as follows:
 | **Rust** | `cargo run` |
 | **JavaScript** | `node part1.js` |
 
----
-
-## ✨ Author
-**Alessio Terraroli**  
