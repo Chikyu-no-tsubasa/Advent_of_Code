@@ -21,7 +21,7 @@ Each folder corresponds to a day of the challenge.
 
 You’ll find:
 - `input.txt` → my personal input data (from the AoC website)  
-- `part1` / `part2` → solutions for each part of the puzzle  
+- `_1` / `_2` → solutions for each part of the puzzle ( e.g., `Day1_1.py`, `Day3_2.cpp`) 
 - the file extension shows which **language** I used for that day  
 
 ---
@@ -38,25 +38,25 @@ You’ll find:
 | 04 | ✅ | ✅ | Rust | Ceres Search |
 | 05 | ✅ | ✅ | Java | Print Queue |
 | 06 | ✅ | ✅ | Ruby | Guard Gallivant |
-| 07 | 🔲 | 🔲 | - | - |
-| 08 | 🔲 | 🔲 | - | - |
-| 09 | 🔲 | 🔲 | - | - |
-| 10 | 🔲 | 🔲 | - | - |
-| 11 | 🔲 | 🔲 | - | - |
-| 12 | 🔲 | 🔲 | - | - |
-| 13 | 🔲 | 🔲 | - | - |
-| 14 | 🔲 | 🔲 | - | - |
-| 15 | 🔲 | 🔲 | - | - |
-| 16 | 🔲 | 🔲 | - | - |
-| 17 | 🔲 | 🔲 | - | - |
-| 18 | 🔲 | 🔲 | - | - |
-| 19 | 🔲 | 🔲 | - | - |
-| 20 | 🔲 | 🔲 | - | - |
-| 21 | 🔲 | 🔲 | - | - |
-| 22 | 🔲 | 🔲 | - | - |
-| 23 | 🔲 | 🔲 | - | - |
-| 24 | 🔲 | 🔲 | - | - |
-| 25 | 🔲 | 🔲 | - | - |
+| 07 | ✅ | ✅ | JavaScript | Bridge Repair |
+| 08 | ✅ | ✅ | Go | Resonant Collinearity |
+| 09 | ✅ | ✅ | C | Disk Fragmenter |
+| 10 | ✅ | ✅ | Haskell | Hoof It |
+| 11 | 🔲 | 🔲 | Zig | - |
+| 12 | 🔲 | 🔲 | Prolog | - |
+| 13 | 🔲 | 🔲 | Nim | - |
+| 14 | 🔲 | 🔲 | OCaml | - |
+| 15 | 🔲 | 🔲 | Kotlin | - |
+| 16 | 🔲 | 🔲 | Swift | - |
+| 17 | 🔲 | 🔲 | Julia | - |
+| 18 | 🔲 | 🔲 | D | - |
+| 19 | 🔲 | 🔲 | Elixir | - |
+| 20 | 🔲 | 🔲 | Crystal | - |
+| 21 | 🔲 | 🔲 | F# | - |
+| 22 | 🔲 | 🔲 | Assembly (x86-64) | - |
+| 23 | 🔲 | 🔲 | Scheme | - |
+| 24 | 🔲 | 🔲 | Awk | - |
+| 25 | 🔲 | 🔲 | APL | - |
 
 
 (*✅ = solved, 🔲 = pending*)
