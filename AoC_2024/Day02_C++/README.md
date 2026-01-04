@@ -27,7 +27,7 @@ This allows each report to be validated incrementally.
 
 ---
 
-## Part 1 – Solution Strategy
+## Part 1 – Solution
 
 A report is considered **safe** if:
 
@@ -71,7 +71,7 @@ Overall complexity is linear in the size of the input.
 
 ---
 
-## Part 2 – Solution StrategyPart 2 introduces a relaxation of the rules:
+## Part 2 – Solution
 
 A report is considered safe if it becomes valid after removing at most one value.
 This includes the case where no removal is needed.
