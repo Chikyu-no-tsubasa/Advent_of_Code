@@ -8,8 +8,6 @@ for **Day 1, Part 1 and Part 2** of Advent of Code 2024.
 The solutions are written in **C#** and are intentionally straightforward,
 prioritizing clarity and correctness over aggressive optimization.
 
----
-
 ## Overview
 
 The input consists of multiple lines, each containing **two integers**
@@ -18,8 +16,6 @@ lists of numbers**, one per column.
 
 The task differs between Part 1 and Part 2, but both rely on the same initial
 input parsing phase.
-
----
 
 ## Input Processing
 
