@@ -54,7 +54,7 @@ This structure keeps solutions isolated, reproducible, and easy to navigate.
 | 08 | ✅ | ✅ | Go | Resonant Collinearity |
 | 09 | ✅ | ✅ | C | Disk Fragmenter |
 | 10 | ✅ | ✅ | Haskell | Hoof It |
-| 11 | 🔲 | 🔲 | Zig | — |
+| 11 | ✅ | ✅ | Zig | Plutonian Pebbles |
 | 12 | 🔲 | 🔲 | Prolog | — |
 | 13 | 🔲 | 🔲 | Nim | — |
 | 14 | 🔲 | 🔲 | OCaml | — |
