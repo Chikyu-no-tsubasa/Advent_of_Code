@@ -1,4 +1,4 @@
-# 🎄 Advent of Code 2024 — Multi-Language Solutions
+# 🎄 Advent of Code — Multi-Language Solutions
 
 This repository contains my personal solutions to **Advent of Code 2024**, with a deliberate focus on **solving each day using a different programming language**.
 

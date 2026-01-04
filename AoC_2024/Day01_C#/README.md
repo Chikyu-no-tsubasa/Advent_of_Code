@@ -1,4 +1,4 @@
-# Advent of Code 2024 – Day 1
+# Advent of Code 2024 – Day 1 in C#
 
 Problem: https://adventofcode.com/2024/day/1
 
